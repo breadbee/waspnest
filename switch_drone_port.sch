@@ -1,0 +1,100 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5F1FE174
+P 4950 2850
+AR Path="/5F1249CD/5F1F9E16/5F1FE174" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F21EF03/5F1FE174" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22A52D/5F1FE174" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22FE6A/5F1FE174" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F23AD4A/5F1FE174" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F2462D5/5F1FE174" Ref="C?"  Part="1" 
+F 0 "C?" V 4698 2850 50  0000 C CNN
+F 1 "C" V 4789 2850 50  0000 C CNN
+F 2 "" H 4988 2700 50  0001 C CNN
+F 3 "~" H 4950 2850 50  0001 C CNN
+	1    4950 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1FE801
+P 4950 3250
+AR Path="/5F1249CD/5F1F9E16/5F1FE801" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F21EF03/5F1FE801" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22A52D/5F1FE801" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22FE6A/5F1FE801" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F23AD4A/5F1FE801" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F2462D5/5F1FE801" Ref="C?"  Part="1" 
+F 0 "C?" V 4698 3250 50  0000 C CNN
+F 1 "C" V 4789 3250 50  0000 C CNN
+F 2 "" H 4988 3100 50  0001 C CNN
+F 3 "~" H 4950 3250 50  0001 C CNN
+	1    4950 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1FED64
+P 4950 3650
+AR Path="/5F1249CD/5F1F9E16/5F1FED64" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F21EF03/5F1FED64" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22A52D/5F1FED64" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22FE6A/5F1FED64" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F23AD4A/5F1FED64" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F2462D5/5F1FED64" Ref="C?"  Part="1" 
+F 0 "C?" V 4698 3650 50  0000 C CNN
+F 1 "C" V 4789 3650 50  0000 C CNN
+F 2 "" H 4988 3500 50  0001 C CNN
+F 3 "~" H 4950 3650 50  0001 C CNN
+	1    4950 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1FF1E5
+P 4950 4050
+AR Path="/5F1249CD/5F1F9E16/5F1FF1E5" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F21EF03/5F1FF1E5" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22A52D/5F1FF1E5" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F22FE6A/5F1FF1E5" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F23AD4A/5F1FF1E5" Ref="C?"  Part="1" 
+AR Path="/5F1249CD/5F2462D5/5F1FF1E5" Ref="C?"  Part="1" 
+F 0 "C?" V 4698 4050 50  0000 C CNN
+F 1 "C" V 4789 4050 50  0000 C CNN
+F 2 "" H 4988 3900 50  0001 C CNN
+F 3 "~" H 4950 4050 50  0001 C CNN
+	1    4950 4050
+	0    1    1    0   
+$EndComp
+Text HLabel 4700 2850 0    50   Input ~ 0
+switch_rxn
+Text HLabel 4700 3250 0    50   Input ~ 0
+switch_rxp
+Text HLabel 4700 3650 0    50   Input ~ 0
+switch_txn
+Text HLabel 4700 4050 0    50   Input ~ 0
+switch_txp
+Wire Wire Line
+	4700 2850 4800 2850
+Wire Wire Line
+	4700 3250 4800 3250
+Wire Wire Line
+	4700 3650 4800 3650
+Wire Wire Line
+	4700 4050 4800 4050
+$EndSCHEMATC
