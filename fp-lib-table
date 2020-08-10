@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name usbc16p)(type KiCad)(uri ${KIPRJMOD}/bb_kicad/footprints/usbc16p.pretty)(options "")(descr ""))
+  (lib (name hanrun)(type KiCad)(uri ${KIPRJMOD}/bb_kicad/footprints/hanrun.pretty)(options "")(descr ""))
+  (lib (name s2qfn80)(type KiCad)(uri ${KIPRJMOD}/bb_kicad/footprints/s2qfn80.pretty)(options "")(descr ""))
+  (lib (name wson8-8x6mm)(type KiCad)(uri ${KIPRJMOD}/bb_kicad/footprints/wson8-8x6mm.pretty)(options "")(descr ""))
+)
